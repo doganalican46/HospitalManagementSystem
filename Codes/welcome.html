@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOSPITAL MANAGEMENT SYSTEM</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('images/welcomebg2.png');
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 400px;
+            max-height: 400px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: left;
+        }
+
+        .description {
+            margin-bottom: 30px;
+        }
+
+        .button {
+            background-color: white;
+            color: blue;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .description {
+                font-size: 14px;
+            }
+
+            .button {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>HOSPITAL MANAGEMENT SYSTEM</h1>
+        <div class="description">
+            <p>
+                Introducing the Doctor Appointment Booking System, a solution designed to streamline and optimize
+                patient-doctor appointments in a hospital setting.
+                Our system empowers patients to schedule appointments with doctors from specific departments, ensuring
+                availability within their preferred time frame, tailored to their condition.
+                Our ultimate objective is to establish a seamless, dependable, and user-friendly booking system.
+            </p>
+        </div>
+        <a href="login.php" class="button">Login</a>
+        <a href="register.php" class="button">Register</a>
+    </div>
+</body>
+
+</html>

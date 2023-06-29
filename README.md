@@ -12,26 +12,35 @@ Visual Studio, AdobeXD, XAMPP
 
 
 ### Users: 
--Admin:		*Create new service
-			*Create new doctor
-			*Can see and edit service, doctor and patient details
+Admin:			
+				❖ Login to the system
+				❖ Manage Users Details
+				❖ Add/Edit new Speciality
+				❖ Add/Edit new Doctor & Secretary
+				❖ Display & Manage all Appointments
+				❖ Send notification for Remind Appointmens
+
+     Doctor: 	
+				❖ Login to the system
+				❖ View & Edit Calender
+				❖ Manage Appointments Details
+				❖ Display and edit profile
+
+	 Secretary: 	
+				❖ Login to the system
+				❖ View & Edit Calender
+				❖ Display patient Details
+				❖ Manage Appointments
+				❖ Send notification for Remind Appointmens
 
 
--Doctor: 	*Set available time
-			*View appointment and patients’ details
-			*Can edit information
-
-
--Patient: 	*Make booking a specific date or time length and see available times
-			*Can see past appointments and medical history
-			*Can edit information
-			
--Other Functions:
-			*Send appointment details message to the patient and doctor on e-mail
-			*Search service name and doctor
-			*Chat section for doctor and patient
-			*Download & Upload booking details and information
-			*…
+	 Patient: 	
+				❖ Register & Login to the system
+				❖ Make an Appointment
+				❖ Manage Appointments
+				❖ Display & Edit Profile
+				❖ See appointment history
+	
 
 
 # Interfaces:
